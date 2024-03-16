@@ -1,4 +1,4 @@
-package com.fresco.ecommerce.service;
+package com.application.ecommerce.service;
 
 import java.util.Optional;
 
@@ -7,8 +7,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.fresco.ecommerce.models.User;
-import com.fresco.ecommerce.repo.UserRepo;
+import com.application.ecommerce.models.User;
+import com.application.ecommerce.repo.UserRepo;
 
 @Service
 public class UserAuthService implements UserDetailsService {

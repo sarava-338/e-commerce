@@ -1,4 +1,4 @@
-package com.fresco.ecommerce.models;
+package com.application.ecommerce.models;
 
 import org.springframework.security.core.GrantedAuthority;
 

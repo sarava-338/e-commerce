@@ -1,4 +1,4 @@
-package com.fresco.ecommerce.config;
+package com.application.ecommerce.config;
 
 import java.io.IOException;
 
@@ -14,8 +14,8 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.fresco.ecommerce.models.User;
-import com.fresco.ecommerce.repo.UserRepo;
+import com.application.ecommerce.models.User;
+import com.application.ecommerce.repo.UserRepo;
 
 @Component
 public class JwtAuthenticationFilter extends OncePerRequestFilter {

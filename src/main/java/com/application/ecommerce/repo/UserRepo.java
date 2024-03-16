@@ -1,11 +1,11 @@
-package com.fresco.ecommerce.repo;
+package com.application.ecommerce.repo;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.fresco.ecommerce.models.User;
+import com.application.ecommerce.models.User;
 
 @Repository
 public interface UserRepo extends JpaRepository<User, Integer> {

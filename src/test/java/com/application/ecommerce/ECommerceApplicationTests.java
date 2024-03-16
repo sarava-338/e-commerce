@@ -1,4 +1,4 @@
-package com.fresco.ecommerce;
+package com.application.ecommerce;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.containsStringIgnoringCase;
@@ -39,9 +39,9 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.util.Assert;
 
-import com.fresco.ecommerce.repo.CategoryRepo;
-import com.fresco.ecommerce.repo.ProductRepo;
-import com.fresco.ecommerce.repo.UserRepo;
+import com.application.ecommerce.repo.CategoryRepo;
+import com.application.ecommerce.repo.ProductRepo;
+import com.application.ecommerce.repo.UserRepo;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)

@@ -1,4 +1,4 @@
-package com.fresco.ecommerce.config;
+package com.application.ecommerce.config;
 
 import java.io.IOException;
 

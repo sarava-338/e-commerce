@@ -1,4 +1,4 @@
-package com.fresco.ecommerce.models;
+package com.application.ecommerce.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package com.fresco.ecommerce.config;
+package com.application.ecommerce.config;
 
 import java.util.Date;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.fresco.ecommerce.models.User;
-import com.fresco.ecommerce.repo.UserRepo;
+import com.application.ecommerce.models.User;
+import com.application.ecommerce.repo.UserRepo;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

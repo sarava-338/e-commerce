@@ -1,4 +1,4 @@
-package com.fresco.ecommerce.config;
+package com.application.ecommerce.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -11,7 +11,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.fresco.ecommerce.service.UserAuthService;
+import com.application.ecommerce.service.UserAuthService;
 
 @Configuration
 @EnableWebSecurity()
