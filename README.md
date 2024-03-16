@@ -1,2 +1,2 @@
 # e-commerce
-Has a mini backend for e-commerce site
+a starter pack for e-commerce backend with few test cases
